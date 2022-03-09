@@ -3,7 +3,6 @@
 
 using namespace std;
 
-/**/
 
 void main()
 {
@@ -27,6 +26,4 @@ void main()
 
 	result = str1 + " " + str2 + str3;	//Способ 3: через класс string. 
 	cout << result << endl;				//Для корректной работы надо подключить библиотеку string(а не string.h)
-
-
 }
