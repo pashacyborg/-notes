@@ -30,6 +30,6 @@ void main()
 
 	int a = 10;
 	int* pa = &a;
-	test(pa);
-	cout << a << endl;
+	test(pa);		//”казатель/массив/строка передаютс€ без &
+	cout << a << endl;	
 }
