@@ -24,7 +24,10 @@ int main()
 {
 	TestClass object1;
 	cout << object1[1] << endl;
-	cout << object1.operator[](4) << endl;		//Результат будет одинаковым
+	cout << object1.operator[](4) << endl;		//Выведет 21
+
+	object1[4] = 1337;
+	cout << object1[4] << endl;					//Выведет 1337
 
 	return 0;
 }
