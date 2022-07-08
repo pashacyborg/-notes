@@ -7,6 +7,7 @@ using namespace std;
 такого метода к конкретному классу, иначе вызовется одноименный метод из текущего класса.
 
 Синтаксис: ::class_name::method_name(param);
+
 */
 
 class Msg
