@@ -69,6 +69,8 @@ int main()
 		{
 			cout << "Ошибка открытия файла!" << endl;
 		}
+		
+		fout.close();
 
 		break;
 	}
@@ -92,6 +94,8 @@ int main()
 		{
 			cout << "Ошибка открытия файла!" << endl;
 		}
+
+		fin.close();
 
 		break;
 	}
